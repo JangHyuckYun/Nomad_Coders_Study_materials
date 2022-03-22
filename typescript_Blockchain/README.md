@@ -69,4 +69,7 @@ tsc-watch란 ts 파일이 업데이트됨을 감지하고 자동으로 컴파일
  다 했으면 터미널에 `yarn start` 명령어를 입력해보자.  
 
  > 만약 `Cannot find module 'typescript/bin/tsc'` 같은 에러 발생 시,  
- > 터미널에 `yarn add @types/node typescript ts-node` 명령어 입력 후 다시 `yarn start` 를 입력하면 잘 될것이다. 
+ > 터미널에 `yarn add @types/node typescript ts-node` 명령어 입력 후 다시 `yarn start` 를 입력하면 잘 될것이다.
+ > 
+
+`※ #0.5 Types in Typescript (07.28) 부분까지 봤음`
