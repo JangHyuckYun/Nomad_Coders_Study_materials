@@ -1,0 +1,18 @@
+{
+  "name": "typescript_Blockchain",
+  "version": "1.0.0",
+  "description": "Learning Typescript by making a Blockchain with it",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.22",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
