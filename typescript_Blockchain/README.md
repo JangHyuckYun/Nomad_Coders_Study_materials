@@ -1,6 +1,6 @@
 # 강의 설명 모음
 
-`※ #0.5 Types in Typescript (07.28) 부분까지 봤음`
+`※ #0.5 Types in Typescript (07:28) 부분까지 봤음`
 
 ## 1. 에러 감지
 
