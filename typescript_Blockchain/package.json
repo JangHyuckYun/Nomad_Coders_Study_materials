@@ -8,10 +8,12 @@
     "start": "tsc-watch --onSuccess \"node dist/index.js\" "
   },
   "devDependencies": {
+    "prettier": "2.6.0",
     "tsc-watch": "^4.6.2"
   },
   "dependencies": {
     "@types/node": "^17.0.22",
+    "crypto-js": "^4.1.1",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.2"
   }

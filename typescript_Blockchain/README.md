@@ -73,3 +73,30 @@ tsc-watch란 ts 파일이 업데이트됨을 감지하고 자동으로 컴파일
  > 만약 `Cannot find module 'typescript/bin/tsc'` 같은 에러 발생 시,  
  > 터미널에 `yarn add @types/node typescript ts-node` 명령어 입력 후 다시 `yarn start` 를 입력하면 잘 될것이다.
  >
+
+
+---
+
+## 3. typescript 에서의 class
+
+```typescript
+class Human {
+    public name: string;
+    public age: number;
+    public gender: string;
+
+    constructor(name: string, age: number, gender: string) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+}
+
+const lynn = new Human("Lynn", 18, "female");
+
+const sayHi = (person: Human): string => {
+    return `Hello ${person.name}, your ${person.age}, you are a ${person.gender}`;
+};
+
+console.log(sayHi(lynn));
+```
