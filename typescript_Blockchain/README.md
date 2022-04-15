@@ -64,7 +64,7 @@ tsc-watch란 ts 파일이 업데이트됨을 감지하고 자동으로 컴파일
 ```json
 {
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/index.js\" "
+    "start": "tsc-watch --onSuccess \"node dist/index.tsx\" "
   }
 }
 ```

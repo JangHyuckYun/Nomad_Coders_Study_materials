@@ -24,7 +24,7 @@
 1. 다른곳에 `[fileName].module.css` 파일을 생성한다.
 2. 해당 module.css파일에 일반적인 css문법으로 작성한다.
    1. 여기선 `.hi { color:red }` 를 예로 들겠다.
-3. 사용하고싶은 곳(ex = pages/index.js )에 `import [styleName] from '[root..]/[fileName].module.css'`형식으로 불러온다.
+3. 사용하고싶은 곳(ex = pages/index.tsx )에 `import [styleName] from '[root..]/[fileName].module.css'`형식으로 불러온다.
 4. 사용하고싶은 태그에 다음과 같은 속성을 추가한다. `className={[styleName].hi}`
    1. 위와 같은 형식으로 class 속성을 불러와 사용할 수 있다.
    2. 단점으론 일일이 기억해야 한단 것으로 노마드 코더는 jsx 형식의 스타일링 방식을 두번째로 선호한다고 하였다.
